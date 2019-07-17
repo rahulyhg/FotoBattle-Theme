@@ -1,0 +1,53 @@
+/*
+Theme Name: Voting App
+Theme URI: https://github.com/roberteberhard/votingapp
+Author: ROBERTEBERHARD
+Author URI: https://wordpress.org/
+Description: Custom theme for the JobStairs Voting App.
+Requires at least: WordPress 4.9.6
+Version: 1.3
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: votingapp
+Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+--------------------------------------------------------------*/
+
+/* Normalize */
+
+@import "sass/normalize";
+
+/* Typography */
+
+/* Elements */
+
+/* Forms */
+
+/* Navigation */
+
+/* Accessibility */
+
+/* Alignments */
+
+/* Clearings */
+
+/* Layout */
+
+/* Content */
+
+/* Widgets */
+
+/* Blocks */
+
+/* Media */
+
+/* Login */
+
+@import "sass/login";
