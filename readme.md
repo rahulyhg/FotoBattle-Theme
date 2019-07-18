@@ -1,6 +1,6 @@
 # Building customs endpoints for the WP REST API
 
-A simple WordPress theme with custom endpoints used as a headless CMS that reads and stores all likes and images (advanced custom fields) for the fotobattle Vue.js SPA application.
+A simple WordPress theme with custom endpoints used as a headless CMS that reads and stores all likes and images (advanced custom fields) for the Fotobattle Vue SPA.
 
 ## Routes & Endpoints reference link: 
 http://cms.fotobattle:8888/api/voting/score<br>
