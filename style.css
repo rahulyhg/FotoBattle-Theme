@@ -1,9 +1,9 @@
 /*
-Theme Name: Foto Aktion
-Theme URI: https://github.com/roberteberhard/votingapp
+Theme Name: FotoBattle
+Theme URI: https://github.com/roberteberhard/fotobattle
 Author: ROBERTEBERHARD
 Author URI: https://wordpress.org/
-Description: Custom theme for the JobStairs Foto Aktion.
+Description: Custom theme for the FotoBattle Voting App.
 Requires at least: WordPress 4.9.6
 Version: 1.3
 License: GNU General Public License v2 or later
@@ -139,7 +139,7 @@ template { display: none; }
 /* Media */
 /* Login */
 /** Site Login */
-body.login { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-align: center; -webkit-align-items: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; justify-content: center; width: 100vw; height: 100%; background-color: #fff; }
+body.login { display: -webkit-box; display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; width: 100vw; height: 100%; background-color: #fff; }
 
 body.login #login h1 a { width: 100px; height: 100px; background-size: 100%; background-position: center center; background-color: #fff; background-image: url("./images/voting-app-icon.png"); }
 
