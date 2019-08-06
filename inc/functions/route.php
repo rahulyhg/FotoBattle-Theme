@@ -64,7 +64,7 @@ add_action('rest_api_init', 'votingRegisterScores');
 function votingScoreResults($data) {
     $ipaddress = $_SERVER['REMOTE_ADDR'];
     $scoreQuery = New WP_Query(array(
-        'posts_per_page' => 20,
+        'posts_per_page' => 10,
         'post_status' => 'publish',
         'post_type' => array('image'),
         'orderby' => 'title',
@@ -81,7 +81,7 @@ function votingScoreResults($data) {
             $timestamp = time();
             $day = 60; // 86400
             $slug = get_post_field('post_name', $id);
-            $image = 'http://cms.fotobattle:8888/images/' . $slug . '.jpg';
+            $image = 'https://fotobattle.roberteberhard.com/images/' . $slug . '.jpg';
             /**
              * Retrieve likes
              */
@@ -194,7 +194,7 @@ function votingHighScoreResultsPaging($data) {
             $timestamp = time();
             $day = 60; // 86400
             $slug = get_post_field('post_name', $id);
-            $image = 'http://cms.fotobattle:8888/images/' . $slug . '.jpg';
+            $image = 'https://fotobattle.roberteberhard.com/images/' . $slug . '.jpg';
             /**
              * Retrieve likes
              */
@@ -301,7 +301,7 @@ function votingGetSharedImage($data) {
                 $timestamp = time();
                 $day = 60; // 86400
                 $slug = get_post_field('post_name', $id);
-                $image = 'http://cms.fotobattle:8888/images/' . $slug . '.jpg';
+                $image = 'https://fotobattle.roberteberhard.com/images/' . $slug . '.jpg';
                 /**
                  * Retrieve likes
                  */
@@ -404,7 +404,7 @@ function votingGetLikedImage($data) {
                 $timestamp = time();
                 $day = 60; // 86400
                 $slug = get_post_field('post_name', $id);
-                $image = 'http://cms.fotobattle:8888/images/' . $slug . '.jpg';
+                $image = 'https://fotobattle.roberteberhard.com/images/' . $slug . '.jpg';
                 /**
                  * Retrieve likes
                  */
