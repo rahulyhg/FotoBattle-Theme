@@ -143,10 +143,9 @@ function votingScoreResults($data) {
                 )
             ));
             $clicks = $clickCounts->found_posts; // Clicks in the last 24 hours (limit clicks after 10)
-            $start = $paged;
+            $start = 1;
             $end = $scoreQuery->max_num_pages;
-            $start = 2;
-            $end = $scoreQuery->max_num_pages;
+            
             /**
              * Build data array
              */
@@ -173,7 +172,7 @@ function votingScoreResults($data) {
  * Voting HighScore Results
  */
 function votingHighScoreResultsPaging($data) {
-    $paged = (int)$data['score'];
+    $paged = (int)$data['score'] > 0 ? (int)$data['score'] : 1;
     $ipaddress = $_SERVER['REMOTE_ADDR'];
     $scoreQuery = New WP_Query(array(
         'paged' => $paged,
@@ -258,6 +257,8 @@ function votingHighScoreResultsPaging($data) {
             $clicks = $clickCounts->found_posts; // Clicks in the last 24 hours (limit clicks after 10)
             $start = $paged;
             $end = $scoreQuery->max_num_pages;
+
+
             /**
              * Build data array
              */
