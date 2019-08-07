@@ -3,11 +3,10 @@
 A simple WordPress theme with custom endpoints used as a headless CMS that reads and stores all likes and images (Advanced Custom Fields) for the Fotobattle (Vue.js) Single Page Application (SPA).
 
 ## Routes & Endpoints reference link: 
-http://fotobattle.roberteberhard.com/api/voting/score<br>
+https://fotobattle.roberteberhard.com/api/voting/score<br>
 https://fotobattle.roberteberhard.com/api/voting/score/3<br>
-http://fotobattle.roberteberhard.com/api/voting/share/69<br>
-http://fotobattle.roberteberhard.com/api/voting/like/69
-
+https://fotobattle.roberteberhard.com/api/voting/share/69<br>
+https://fotobattle.roberteberhard.com/api/voting/like/69
 
 ## REST
 REST stands for Representational State Transfer. It is an architectural style which advocates that the web applications should use HTTP.
